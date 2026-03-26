@@ -1,0 +1,41 @@
+# Виртуальное окружение
+venv/
+env/
+ENV/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Файлы окружения
+.env
+.env.local
+.env.*.local
+
+# Логи
+*.log
+logs/
+
+# Данные
+data/input/*
+data/output/*
+!data/input/.gitkeep
+!data/output/.gitkeep
+
+# OS
+Thumbs.db
+.DS_Store
